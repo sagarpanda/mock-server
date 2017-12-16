@@ -1,5 +1,5 @@
 module.exports = {
-  port: 3000,
+  port: process.env.PORT ? process.env.PORT : 3000,
   header: {
     // Website you wish to allow to connect
     "Access-Control-Allow-Origin": "*",
