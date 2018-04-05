@@ -15,6 +15,7 @@ app.use(function (request, response, next) {
 
 apiUser(app);
 utils.showRoutes(app);
+utils.log('----- Base URL -----');
 app.listen(config.port,
   (arg) => utils.log('http://localhost:' + config.port)
 );
