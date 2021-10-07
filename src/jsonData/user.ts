@@ -1,4 +1,4 @@
-module.exports = [
+const user = [
   {
     guid: 'ec6939be-0435-48f1-90b7-ab0d4b69a8f9',
     isActive: false,
@@ -125,15 +125,7 @@ module.exports = [
     registered: '2014-01-30T06:04:24 -00:00',
     latitude: -65.846425,
     longitude: 117.895177,
-    tags: [
-      'enim',
-      'id',
-      'exercitation',
-      'proident',
-      'ipsum',
-      'exercitation',
-      'nisi'
-    ],
+    tags: ['enim', 'id', 'exercitation', 'proident', 'ipsum', 'exercitation', 'nisi'],
     friends: [
       {
         id: 0,
@@ -277,15 +269,7 @@ module.exports = [
     registered: '2014-07-21T07:51:31 -01:00',
     latitude: 8.613972,
     longitude: -77.778435,
-    tags: [
-      'adipisicing',
-      'tempor',
-      'pariatur',
-      'aute',
-      'deserunt',
-      'do',
-      'deserunt'
-    ],
+    tags: ['adipisicing', 'tempor', 'pariatur', 'aute', 'deserunt', 'do', 'deserunt'],
     friends: [
       {
         id: 0,
@@ -321,15 +305,7 @@ module.exports = [
     registered: '2014-12-27T10:37:28 -00:00',
     latitude: 54.092769,
     longitude: -26.518738,
-    tags: [
-      'culpa',
-      'mollit',
-      'ipsum',
-      'aute',
-      'consectetur',
-      'velit',
-      'occaecat'
-    ],
+    tags: ['culpa', 'mollit', 'ipsum', 'aute', 'consectetur', 'velit', 'occaecat'],
     friends: [
       {
         id: 0,
@@ -437,15 +413,7 @@ module.exports = [
     registered: '2014-08-01T11:26:45 -01:00',
     latitude: 41.990725,
     longitude: 40.185155,
-    tags: [
-      'commodo',
-      'occaecat',
-      'veniam',
-      'exercitation',
-      'adipisicing',
-      'proident',
-      'Lorem'
-    ],
+    tags: ['commodo', 'occaecat', 'veniam', 'exercitation', 'adipisicing', 'proident', 'Lorem'],
     friends: [
       {
         id: 0,
@@ -481,15 +449,7 @@ module.exports = [
     registered: '2016-01-23T10:25:06 -00:00',
     latitude: 49.666779,
     longitude: 129.24994,
-    tags: [
-      'ex',
-      'reprehenderit',
-      'incididunt',
-      'cillum',
-      'aliqua',
-      'enim',
-      'velit'
-    ],
+    tags: ['ex', 'reprehenderit', 'incididunt', 'cillum', 'aliqua', 'enim', 'velit'],
     friends: [
       {
         id: 0,
@@ -525,15 +485,7 @@ module.exports = [
     registered: '2016-06-21T03:01:25 -01:00',
     latitude: 21.380394,
     longitude: -110.525432,
-    tags: [
-      'adipisicing',
-      'adipisicing',
-      'excepteur',
-      'ipsum',
-      'in',
-      'velit',
-      'ad'
-    ],
+    tags: ['adipisicing', 'adipisicing', 'excepteur', 'ipsum', 'in', 'velit', 'ad'],
     friends: [
       {
         id: 0,
@@ -605,15 +557,7 @@ module.exports = [
     registered: '2014-01-08T02:35:18 -00:00',
     latitude: -64.872014,
     longitude: 24.295344,
-    tags: [
-      'excepteur',
-      'ipsum',
-      'officia',
-      'voluptate',
-      'commodo',
-      'labore',
-      'sint'
-    ],
+    tags: ['excepteur', 'ipsum', 'officia', 'voluptate', 'commodo', 'labore', 'sint'],
     friends: [
       {
         id: 0,
@@ -685,15 +629,7 @@ module.exports = [
     registered: '2016-01-10T03:26:34 -00:00',
     latitude: -74.216912,
     longitude: -85.514074,
-    tags: [
-      'non',
-      'adipisicing',
-      'Lorem',
-      'laborum',
-      'velit',
-      'laboris',
-      'incididunt'
-    ],
+    tags: ['non', 'adipisicing', 'Lorem', 'laborum', 'velit', 'laboris', 'incididunt'],
     friends: [
       {
         id: 0,
@@ -729,15 +665,7 @@ module.exports = [
     registered: '2014-07-04T04:30:31 -01:00',
     latitude: -23.60035,
     longitude: -67.310103,
-    tags: [
-      'qui',
-      'nisi',
-      'irure',
-      'adipisicing',
-      'officia',
-      'laboris',
-      'velit'
-    ],
+    tags: ['qui', 'nisi', 'irure', 'adipisicing', 'officia', 'laboris', 'velit'],
     friends: [
       {
         id: 0,
@@ -773,15 +701,7 @@ module.exports = [
     registered: '2017-02-01T11:44:43 -00:00',
     latitude: -80.33755,
     longitude: -115.81945,
-    tags: [
-      'proident',
-      'adipisicing',
-      'et',
-      'adipisicing',
-      'quis',
-      'ex',
-      'aliquip'
-    ],
+    tags: ['proident', 'adipisicing', 'et', 'adipisicing', 'quis', 'ex', 'aliquip'],
     friends: [
       {
         id: 0,
@@ -853,15 +773,7 @@ module.exports = [
     registered: '2017-05-09T10:15:03 -01:00',
     latitude: -2.929413,
     longitude: 51.912761,
-    tags: [
-      'commodo',
-      'eu',
-      'amet',
-      'cillum',
-      'aliquip',
-      'incididunt',
-      'tempor'
-    ],
+    tags: ['commodo', 'eu', 'amet', 'cillum', 'aliquip', 'incididunt', 'tempor'],
     friends: [
       {
         id: 0,
@@ -969,15 +881,7 @@ module.exports = [
     registered: '2015-11-27T08:28:01 -00:00',
     latitude: 2.213461,
     longitude: 67.209205,
-    tags: [
-      'aliquip',
-      'deserunt',
-      'exercitation',
-      'voluptate',
-      'cillum',
-      'non',
-      'anim'
-    ],
+    tags: ['aliquip', 'deserunt', 'exercitation', 'voluptate', 'cillum', 'non', 'anim'],
     friends: [
       {
         id: 0,
@@ -1157,15 +1061,7 @@ module.exports = [
     registered: '2016-03-16T11:29:54 -00:00',
     latitude: 24.65954,
     longitude: 53.393489,
-    tags: [
-      'occaecat',
-      'proident',
-      'pariatur',
-      'culpa',
-      'quis',
-      'magna',
-      'irure'
-    ],
+    tags: ['occaecat', 'proident', 'pariatur', 'culpa', 'quis', 'magna', 'irure'],
     friends: [
       {
         id: 0,
@@ -1345,15 +1241,7 @@ module.exports = [
     registered: '2016-02-17T07:45:54 -00:00',
     latitude: -43.402332,
     longitude: 107.471306,
-    tags: [
-      'non',
-      'sint',
-      'pariatur',
-      'sint',
-      'commodo',
-      'aliqua',
-      'reprehenderit'
-    ],
+    tags: ['non', 'sint', 'pariatur', 'sint', 'commodo', 'aliqua', 'reprehenderit'],
     friends: [
       {
         id: 0,
@@ -1372,3 +1260,5 @@ module.exports = [
     favoriteFruit: 'apple'
   }
 ];
+
+export default user;
