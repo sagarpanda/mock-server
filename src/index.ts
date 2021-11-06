@@ -1,10 +1,10 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import config from './config';
 import utils from './utils';
 import apiUser from './apiUser';
 
 const app = express();
-app.use((request, response, next) => {
+app.use((request: Request, response: Response, next) => {
   const keys = Object.keys(config.header);
   for (let i = 0; i < keys.length; i++) {
     const key = keys[i];
