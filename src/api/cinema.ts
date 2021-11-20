@@ -1,10 +1,11 @@
 import express from 'express';
-import gs from '../googSheetApi';
+import GSheetApi from '../googSheetApi';
 
 const router = express.Router();
 
 router.get('/', (request, response) => {
-  gs.sheet('Sheet2')
+  GSheetApi()
+    .sheet('Sheet2')
     .find()
     .then((data: any) => {
       response.json(data);
