@@ -21,7 +21,7 @@ app.get('/', (request, response) => {
   // response.json(request.query);
   // response.json(request.params);
   // response.json(request.body);
-  response.send({ apis: ['/api/user'] });
+  response.send({ apis: ['/api/user', '/api/cinema'] });
 });
 
 app.listen(port, () => console.log(`http://localhost:${port}`));
