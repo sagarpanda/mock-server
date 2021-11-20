@@ -3,7 +3,7 @@ import GoogSheetApi from 'goog-sheet-api';
 const GSheetApi = () => {
   const spreadsheetId = process.env.GOOG_SPREADSHEET_ID;
   const credentials = {
-    private_key: process.env.GCP_PRIVATE_KEY,
+    private_key: process.env.GCP_PRIVATE_KEY.replace(/\\n/g, '\n'),
     client_email: process.env.GCP_CLIENT_EMAIL
   };
 
